@@ -1,0 +1,29 @@
+.headerActions {
+  padding: 13px 21px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.item {
+  padding: 13px 0;
+  width: 14.28%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+}
+.item:hover {
+  border-color: #F8F8F8;
+}
+.item span {
+  margin-left: 12px;
+}
+
+.active {
+  background-color: #F8F8F8;
+  color: #3399CC;
+}

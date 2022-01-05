@@ -1,0 +1,36 @@
+.header {
+  background-color: #eee;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.header:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  background-color: #d7d7d7;
+  bottom: -5px;
+  left: 0;
+  height: 5px;
+}
+.header > *:first-child > *:first-child {
+  padding-left: 20px;
+}
+.header > *:last-child > *:last-child {
+  padding-left: 20px;
+}
+
+.headerItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px 10px 0;
+  cursor: pointer;
+}
+.headerItem span {
+  margin-left: 6px;
+}
+
+.draw {
+  background-color: #3399CC;
+  color: #fff;
+}

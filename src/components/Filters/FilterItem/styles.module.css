@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+}
+.item:hover:not(.disabled) {
+  background-color: #f8f8f8;
+}
+
+.dropList {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  z-index: 2;
+  min-width: 180px;
+}
+
+.active > *:first-child {
+  color: var(--c-blue);
+}
+
+.disabled {
+  color: #BFBFBF;
+  cursor: default !important;
+}
+
+.noText {
+  width: 26px;
+  min-width: 26px;
+  height: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.noText:hover:not(.disabled) {
+  background-color: #F8F8F8;
+}

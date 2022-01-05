@@ -1,0 +1,7 @@
+.bp3-navbar > *:first-child {
+  display: flex;
+  background-color: #EEEEEE;
+}
+.bp3-navbar button {
+
+}

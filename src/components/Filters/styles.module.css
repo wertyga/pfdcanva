@@ -1,0 +1,14 @@
+.filters {
+  padding: 10px 20px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  user-select: none;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+

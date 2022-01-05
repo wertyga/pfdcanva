@@ -1,0 +1,6 @@
+.dropCard {
+  border: 1px solid var(--c-blue);
+  padding: 12px 7px;
+  border-radius: 4px;
+  background-color: #fff;
+}

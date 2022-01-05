@@ -1,0 +1,27 @@
+.layerDropList {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+.layerDropList :global(.divider) {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+.layerDropList :global(.UI__icon) {
+  color: var(--c-text);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.item span {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+.item:hover {
+  background-color: var(--c-bg);
+}

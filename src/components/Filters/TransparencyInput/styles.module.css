@@ -1,0 +1,10 @@
+.transparency {
+  display: flex;
+  align-items: center;
+  color: var(--c-text);
+  font-size: 14px;
+  width: 255px;
+}
+.transparency > span {
+  margin: 0 7px;
+}
